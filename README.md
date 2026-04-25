@@ -1,8 +1,15 @@
 # obs-yandex-music
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![License](https://img.shields.io/github/license/YunusovYF/obs-yandex-music)
+![CI](https://github.com/YunusovYF/obs-yandex-music/actions/workflows/ci.yml/badge.svg)
+
 OBS-скрипт для отображения текущего трека из **Яндекс Музыки** на стриме: показывает «Артист – Трек» в текстовом источнике и обложку альбома в источнике-картинке. Дополнительно умеет ставить музыку на паузу при переключении на сцены, где она не нужна, и снова включать на «музыкальных» сценах.
 
 Только Windows: данные о текущем треке берутся из системного API SMTC (System Media Transport Controls).
+
+![Свойства скрипта в OBS](docs/screenshot.png)
 
 ## Состав
 
